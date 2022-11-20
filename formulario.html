@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/principal/footer.css" />
+    <link rel="stylesheet" href="style/formulario/formulario.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="contenedor">
+        <div class="form_logo">
+          <img src="recursos/img/logo_header.png" alt="Logo" />
+        </div>
+        <form
+          action="."
+          oninput="range_control_value.value = range_control.valueAsNumber"
+        >
+          <p>
+            Nombre:
+            <input type="text" name="name_control" autofocus required /> <br />
+            Apellido <input type="apellido" name="apellido_control" /> <br />
+            Email: <input type="email" name="email_control" required /> <br />
+            Teléfono: <input type="tel" name="tel_control" /> <br />
+            Carrera: <input type="text" name="carrera_control" />
+            <br />
+            <button class="btn_login" type="submit" value="Registrate"><a href="index.html">Registrate</a></button>
+          </p>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Lourdes Gimenez</p>
+      <p>Franco Olcese</p>
+      <p>David Torres</p>
+      <p>Pascual Silvestri</p>
+      </footer>
+  </body>
+</html>

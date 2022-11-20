@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/login/logo_form.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="contenedor">
+        <div class="form_logo">
+          <img src="recursos/img/cerebro.png" alt="Avatar" class="avatar" />
+        </div>
+
+        <form class="form_contenedor" action="action_page.php" method="post">
+          <div class="form_contenedor__input">
+            <label for="uname"><b>Username</b></label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              required
+            />
+
+            <label for="psw"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+
+            <button class="btn_login" type="submit"><a href="micuenta.html">Login</a> </button>
+            <div class="div_btn_cancelar">
+                <button type="button" class="btn_login"><a href="formulario.html">Registrarse</a></button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+          </div>
+
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Lourdes Gimenez</p>
+      <p>Franco Olcese</p>
+      <p>David Torres</p>
+      <p>Pascual Silvestri</p>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    margin-bottom:1rem ;
+}
+
+.nav_ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+
+.nav_ul__li{
+    list-style: none;
+    width: 170px;
+    height: 70px;
+    background-color: #3334;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nav_ul__li a{
+    text-decoration: none;
+    color: var(--color-letras);
+    font-size: 2rem;
+    font-family: var(--letra-alfa);
+}
